@@ -1,5 +1,3 @@
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" -Name "RealTimeIsUniversal" -Type DWord -Value 1
-
-Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" -Name "RealTimeIsUniversal"
-
-Read-Host "Type Enter to exit"
+Write-Host "Done!" -ForegroundColor Green
+Read-Host "Type ENTER to exit"
